@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url(./fonts.css);
+@import url(./reset.css);
+
+
+#wrap {width:100%;}
+#wrap #rect {width:100%;padding:130px 0;background:#f6f6f6;}
+#wrap #rect .container {width:1530px;margin:0 auto;}
+#wrap #rect .container .title {text-align:center;padding:0 0 60px 0;}
+#wrap #rect .container .title h2 {font-size:33px;font-weight:300;color:#000;}
+#wrap #rect .container .title div {width:110px;display:inline-block;padding:20px 0;}
+#wrap #rect .container .title div i {display:block;width:100%;height:1px;background:#ccc;}
+#wrap #rect .container .title h3 {font-size:14px;font-weight:300;color:#777;}
+
+#wrap #rect .container .content {width:100%;}
+#wrap #rect .container .content ul {width:100%;display:flex;}
+#wrap #rect .container .content ul li {width:33.333%;}
+#wrap #rect .container .content ul li .col-gap {margin:0 20px;}
+/* #wrap #rect .container .content ul li .col-gap a {display:inline-block;width:100%;box-shadow:6px 6px 20px rgba(0,0,0, .1), -6px -6px 20px rgba(0,0,0, .1);} */
+#wrap #rect .container .content ul li .col-gap a {display:inline-block;width:100%;box-shadow:0 0 30px 3px rgba(0,0,0, .15);}
+#wrap #rect .container .content ul li .col-gap a .col-wrap {width:100%;background: #fff;position: relative;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap {padding:60px 20px;text-align: center;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .img-box {width:216px;height:216px;background:#ccc url() no-repeat 50% 50%;background-size: cover;display:inline-block;border-radius:50%;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .img1 {background-image: url(../img/tattoo-img-14.jpg);}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .img2 {background-image: url(../img/tattoo-img-23.jpg);}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .img3 {background-image: url(../img/tattoo-img-10.jpg);}
+
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .text-box {padding:60px 0 0 0;font-weight:300;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .text-box h4 {color:#222;font-size:16px;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .text-box h5 {color:#aa8e9f;font-size:12px;padding:15px 0 35px 0;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap .content-gap .text-box h6 {color:#999;font-size:12px;}
+
+/*사각형 회전하는 라인 애니메이션 UIUX 디자인 */
+#wrap #rect .container .content ul li .col-gap a .col-wrap i {position:absolute;background:#6f184e;transition:all .3s;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line1 {width:0;height:4px;left:0;top:0;}
+#wrap #rect .container .content ul li .col-gap a:hover .col-wrap i.line1 {width:100%;}
+
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line2 {width:4px; height:0;right:0;top:0;}
+#wrap #rect .container .content ul li .col-gap a:hover .col-wrap i.line2 {height:100%;}
+
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line3 {width:0;height:4px;right:0;bottom:0;}
+#wrap #rect .container .content ul li .col-gap a:hover .col-wrap i.line3 {width:100%;}
+
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line4 {width:4px;height:0;left:0;bottom:0;}
+#wrap #rect .container .content ul li .col-gap a:hover .col-wrap i.line4 {height:100%;}
+
+
+/* 애니메이션 사각형 회전 => 사각형 SVG */
+/* #wrap #rect .container .content ul li .col-gap a .col-wrap i.line1 {animation: rectAni1 1s forwards;animation-delay: 0s;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line2 {animation: rectAni2 2s forwards;animation-delay: 1s;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line3 {animation: rectAni3 3s forwards;animation-delay: 2s;}
+#wrap #rect .container .content ul li .col-gap a .col-wrap i.line4 {animation: rectAni4 4s forwards;animation-delay: 3s;}
+
+@keyframes rectAni1 {
+    0% {width:  0%;}
+  100% {width:100%;}
+}
+@keyframes rectAni2 {
+    0% {height:  0%;}
+  100% {height:100%;}
+}
+@keyframes rectAni3 {
+    0% {width:  0%;}
+  100% {width:100%;}
+}
+@keyframes rectAni4 {
+    0% {height:  0%;}
+  100% {height:100%;}
+} */
